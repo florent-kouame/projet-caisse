@@ -8,6 +8,8 @@ const Mont_cahier = prix_cahier * Quant_cahier;
 const Mont_stylo = prix_stylo * Quant_stylo;
 const Mont_total_achat = Mont_cahier + Mont_stylo;
 
+console.log("===== CAISSE =====");
+
 //Calculer le montant des cahiers et des stylos
 console.log("cahier : ", Mont_cahier, " FCFA");
 console.log("stylos : ", Mont_stylo, " FCFA");
@@ -23,4 +25,11 @@ if (Mont_total_achat <= Budget_client) {
     console.log("Budget suffisant");
 } else {
     console.log("Budget insuffisant");
+}
+
+console.log("")
+
+//Afficher les achats de 1 à 5
+for (let i = 1; i <= 5; i++) {
+    console.log("Achat numero ", i)
 }
