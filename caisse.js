@@ -9,5 +9,8 @@ const Mont_stylo = prix_stylo * Quant_stylo;
 const Mont_total_achat = Mont_cahier + Mont_stylo;
 
 //Calculer le montant des cahiers et des stylos
-console.log("cahier: ", Mont_cahier, " FCFA");
-console.log("stylos: ", Mont_stylo, " FCFA");
+console.log("cahier : ", Mont_cahier, " FCFA");
+console.log("stylos : ", Mont_stylo, " FCFA");
+
+//Calculer le montant total des achats
+console.log("Total :", Mont_total_achat, " FCFA");
