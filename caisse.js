@@ -15,6 +15,9 @@ console.log("stylos : ", Mont_stylo, " FCFA");
 //Calculer le montant total des achats
 console.log("Total :", Mont_total_achat, " FCFA");
 
+//Afficher le montant total et le résultat de la vérification du budget
+console.log("Budget :", Budget_client, " FCFA")
+
 //Utiliser une condition pour afficher: Budget suffisant si le total est inférieur ou égal au budget, sinon budjet insuffisant
 if (Mont_total_achat <= Budget_client) {
     console.log("Budget suffisant");
